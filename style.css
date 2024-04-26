@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(241, 241, 241) 6%, rgb(118, 165, 212));
+}
+h3{
+    justify-content: center;
+}
+.updiv{
+    margin-top: 1rem;
+    display:flex;
+    justify-content:space-evenly;
+}
+.downdiv{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+@media screen and (max-width: 600px){
+    .updiv{
+        display: grid;
+        
+    }
+    .downdiv{
+        display: grid;
+
+    }
+
+}
+
